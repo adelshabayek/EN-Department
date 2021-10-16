@@ -11952,7 +11952,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 	display: block;
 	margin-bottom: 0;
 	font-size: 1.25rem;
-	text-transform: uppercase;
+	
 	letter-spacing: 1px;
 	font-weight: 700;
 }
