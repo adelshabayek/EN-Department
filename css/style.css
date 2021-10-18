@@ -326,7 +326,7 @@ span.middot {
 
 .topmargin { margin-top: 3rem !important; }
 
-.bottommargin { margin-bottom: 3rem !important; }
+
 
 .allmargin-sm { margin: 2rem !important; }
 
@@ -16971,4 +16971,40 @@ a:hover {
 	.develop {
 		margin-right: 0 !important;
 	}
+}
+
+.into-0 {
+	font-weight: 600;
+}
+
+.into-2  {
+	margin-top: -15px !important;
+}
+
+.into {
+	font-weight: 800;
+	color: #1ABC9C;
+}
+.goal {
+	font-size: 20px;
+	font-weight: 600;
+
+}
+.inf {
+	margin-left: 35px;
+}
+.tig {
+	font-size: 17px;
+	font-weight: 600;
+}
+.bott {
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
+.footer {
+	margin-top: -8px;
+	font-style: italic;
+	font-size: 14px;
+	color: #b5b2b2;
+	text-align: end;
 }
