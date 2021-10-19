@@ -157,7 +157,7 @@ a {
 	color: #1ABC9C;
 }
 
-a:hover { color: #222; }
+a:hover { color: #1abc9c; }
 
 a img { border: none; }
 
@@ -8929,7 +8929,7 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #444;
+	background-color: #1abc9c;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -17007,4 +17007,30 @@ a:hover {
 	font-size: 14px;
 	color: #b5b2b2;
 	text-align: end;
+}
+
+.gmail {
+	display: block;
+    z-index: 599;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+   background-color: #DD4B39 !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.25rem;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 85px;
+    cursor: pointer;
+    margin: 0;
+	
+}
+.bss {
+	background-color: transparent;
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
 }
