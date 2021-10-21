@@ -6472,7 +6472,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	letter-spacing: 1px;
 	color: #333;
 	font-size: 2rem;
-	text-transform: uppercase;
+	text-transform: initial;
 }
 
 #page-title span {
@@ -16966,10 +16966,20 @@ a:hover {
 	width: 255px;
 	height: 255px;
 }
+.img2 {
+	margin-bottom: 30px !important;
+	border-radius: 50px;
+	height: 360px;
+	
+}
 
 @media (max-width: 767px) {
 	.develop {
 		margin-right: 0 !important;
+	
+	}
+	#gotoTop {
+		display: block;
 	}
 }
 
