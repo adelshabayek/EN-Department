@@ -17045,4 +17045,21 @@ a:hover {
     color: #1abc9c;
     border: 1px solid #1abc9c;
 }
+.oc-item {
+	text-align: center;
+}
+.oc-item h3{
+	margin-top: 15px !important;
+}
+.oc-item img {
+	height: 165px;
+	border-radius: 15px;
+}
+.oc-item span {
+	font-style: italic;
+	font
+}
+.oc-item .icons-div {
+	color: #999;
+}
 
