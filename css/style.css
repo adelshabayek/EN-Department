@@ -17059,4 +17059,13 @@ a:hover {
 .oc-item .icons-div {
 	color: #999;
 }
+.drama {
+	font-style: italic;
+	margin: 5px 0;
+	color: #7e7e7e;
+}
+.can {
+	color: #ccc;
+	margin-bottom: 6px;
+}
 
