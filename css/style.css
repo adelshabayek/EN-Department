@@ -17026,7 +17026,7 @@ a:hover {
     position: fixed;
     width: 40px;
     height: 40px;
-   background-color: #DD4B39 !important;
+   background-color: #1ABC9C !important;
     background-color: rgba(0, 0, 0, 0.3);
     font-size: 1.25rem;
     line-height: 36px;
@@ -17055,10 +17055,7 @@ a:hover {
 	height: 165px;
 	border-radius: 15px;
 }
-.oc-item span {
-	font-style: italic;
-	font
-}
+
 .oc-item .icons-div {
 	color: #999;
 }
