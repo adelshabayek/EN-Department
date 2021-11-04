@@ -17068,4 +17068,7 @@ a:hover {
 	color: #ccc;
 	margin-bottom: 6px;
 }
+.portfolio-image img {
+	border-radius: 15px;
+}
 
