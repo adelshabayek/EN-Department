@@ -17071,4 +17071,9 @@ a:hover {
 .portfolio-image img {
 	border-radius: 15px;
 }
+.cale {
+	font-size: 90%; 
+	margin: 0 15px 0 0;
+	color: #999;
+}
 
