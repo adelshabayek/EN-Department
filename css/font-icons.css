@@ -267,18 +267,6 @@
 	color: #ffffff;
 }
 
-.icon-type:before {
-	content: "\e600";
-}
-.icon-box1:before {
-	content: "\e601";
-}
-.icon-archive1:before {
-	content: "\e602";
-}
-.icon-envelope2:before {
-	content: "\e603";
-}
 .icon-email:before {
 	content: "\e604";
 }

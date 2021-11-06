@@ -16963,13 +16963,12 @@ a:hover {
 .img {
 	margin-bottom: 30px !important;
 	border-radius: 20px;
-	width: 255px;
-	height: 255px;
+
 }
 .img2 {
 	margin-bottom: 30px !important;
 	border-radius: 50px;
-	height: 360px;
+	
 	
 }
 
@@ -17075,5 +17074,48 @@ a:hover {
 	font-size: 90%; 
 	margin: 0 15px 0 0;
 	color: #999;
+}
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 5---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-item{
+	text-align: center;
+	color: #fff;
+}
+blockquote {
+	position: relative;
+
+	text-align: center;
+	font-size: 38px;
+	 border:none;
+	 line-height: 1.2;
+	}
+blockquote:before,  blockquote:after {
+	position: absolute;
+
+	font-size: 130px;
+	line-height: 1; 
+}
+blockquote:before {
+	top: 0;
+	left: 0;
+	content: "\201C"; }
+blockquote:after {
+	top: 0;right: 0;
+	content: "\201D";
+ }
+
+ 
+@media (max-width: 410px) {
+	blockquote {
+		font-size: 29px;
+		margin-top: -38px;
+	}
+	blockquote:before, blockquote:after {
+	
+		font-size: 90px;
+		
+	}
+	
 }
 
