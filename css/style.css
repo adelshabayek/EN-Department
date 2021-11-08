@@ -17082,7 +17082,7 @@ a:hover {
 	text-align: center;
 	color: #fff;
 }
-blockquote {
+.bbc {
 	position: relative;
 
 	text-align: center;
@@ -17090,32 +17090,39 @@ blockquote {
 	 border:none;
 	 line-height: 1.2;
 	}
-blockquote:before,  blockquote:after {
+.bbc:before,  .bbc:after {
 	position: absolute;
 
 	font-size: 130px;
 	line-height: 1; 
 }
-blockquote:before {
+.bbc:before {
 	top: 0;
 	left: 0;
 	content: "\201C"; }
-blockquote:after {
+.bbc:after {
 	top: 0;right: 0;
 	content: "\201D";
  }
 
  
 @media (max-width: 410px) {
-	blockquote {
+	.bbc {
 		font-size: 29px;
 		margin-top: -38px;
 	}
-	blockquote:before, blockquote:after {
+	.bbc:before, .bbc:after {
 	
 		font-size: 90px;
 		
 	}
 	
+}
+
+.ttc {
+	padding-bottom: 40px;
+}
+.ssd {
+	margin: 15px 0 30px;
 }
 
