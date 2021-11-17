@@ -17125,4 +17125,10 @@ a:hover {
 .ssd {
 	margin: 15px 0 30px;
 }
-
+.table th, .table td {
+	vertical-align: middle;
+	text-align: center;
+}
+.table-bordered th, .table-bordered td {
+    border: 2px solid #dee2e6;
+}
