@@ -18697,3 +18697,6 @@ a:hover {
     font-size: 90px;
   }
 }
+.dark .widget_nav_menu li a:hover, .dark .widget_links li a:hover, .dark .widget_meta li a:hover, .dark .widget_archive li a:hover, .dark .widget_recent_entries li a:hover, .dark .widget_categories li a:hover, .dark .widget_pages li a:hover, .dark .widget_rss li a:hover, .dark .widget_recent_comments li a:hover {
+  color: #1ABC9C;
+}
