@@ -3416,7 +3416,7 @@ html[xmlns] .slider-wrap {
 #header {
   position: relative;
   background-color: #fff;
-  border-bottom: 1px solid #f5f5f5;
+
 }
 
 #header-wrap {
@@ -18704,4 +18704,8 @@ a:hover {
   .ftr {
     position: relative !important;
   }
+}
+.zed {
+  z-index: 455; 
+  position: relative;
 }
