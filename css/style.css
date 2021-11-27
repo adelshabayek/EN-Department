@@ -18709,3 +18709,25 @@ a:hover {
   z-index: 455; 
   position: relative;
 }
+.block-portfolio-single .portfolio-single-content h2 {
+			font-size: 1.75rem;
+		}
+
+		@media (min-width: 992px) {
+			.block-portfolio-single .content-wrap { overflow: inherit; }
+
+			.block-portfolio-single .portfolio-single-content .content-sticky {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 60px;
+				height: 100%;
+			}
+
+			.block-portfolio-single .portfolio-meta {
+				font-size: .925rem;
+			}
+
+			.block-portfolio-single .portfolio-meta li {
+				margin-bottom: 14px
+			}
+		}
