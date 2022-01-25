@@ -18731,3 +18731,21 @@ a:hover {
 				margin-bottom: 14px
 			}
 		}
+
+    .l-overlay {
+      width: 100%; /* Full width (cover the whole page) */
+      height: 100%; /* Full height (cover the whole page) */   
+      background-color:rgb(26, 188, 156); /* Black background with opacity */   
+      opacity: .7;
+      position: absolute;
+      z-index: 1;
+    }
+    .dark .i-plain  {
+      color: #fff !important;
+    }
+    .dark .counter.counter-lined + h5::before {
+      border-top-color: rgb(255 255 255 / 88%);
+  }
+  .section-db {
+    padding: 80px 0 50px;
+  }
