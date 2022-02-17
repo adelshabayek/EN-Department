@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 	var cSpeed=3;
 	var cWidth=88;
 	var cHeight=88;
@@ -61,4 +61,3 @@
 	
 	//The following code starts the animation
 	new imageLoader(cImageSrc, 'startAnimation()');
-</script>
