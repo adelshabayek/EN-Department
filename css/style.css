@@ -18700,15 +18700,7 @@ a:hover {
 .dark .widget_nav_menu li a:hover, .dark .widget_links li a:hover, .dark .widget_meta li a:hover, .dark .widget_archive li a:hover, .dark .widget_recent_entries li a:hover, .dark .widget_categories li a:hover, .dark .widget_pages li a:hover, .dark .widget_rss li a:hover, .dark .widget_recent_comments li a:hover {
   color: #1ABC9C;
 }
-@media (max-width: 1010px) {
-  .ftr {
-    position: relative !important;
-  }
-}
-.zed {
-  z-index: 455; 
-  position: relative;
-}
+
 .block-portfolio-single .portfolio-single-content h2 {
 			font-size: 1.75rem;
 		}
@@ -18735,8 +18727,8 @@ a:hover {
     .l-overlay {
       width: 100%; /* Full width (cover the whole page) */
       height: 100%; /* Full height (cover the whole page) */   
-      background-color:rgb(26, 188, 156); /* Black background with opacity */   
-      opacity: .7;
+      background-color:rgb(26, 188, 156, .4); /* Black background with opacity */   
+ 
       position: absolute;
       z-index: 1;
     }
@@ -18749,3 +18741,12 @@ a:hover {
   .section-db {
     padding: 80px 0 50px;
   }
+  .hades.tparrows {
+    background: rgb(0 0 0 / 0%) !important;
+  }
+
+  .hades.tparrows:hover:before {
+    background: rgb(255 255 255 / 26%) !important;
+  }
+
+ 

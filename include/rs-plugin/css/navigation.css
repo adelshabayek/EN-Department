@@ -758,7 +758,7 @@ opacity:1
 		font-size:13px;
 		font-weight:700;
 		text-transform:uppercase;
-		font-family:"Roboto Slab"
+		font-family:"Roboto Slab";
 		margin-bottom:5px;
 }
 
@@ -1001,6 +1001,17 @@ website:    http://www.themepunch.com
 	display:block;
 	z-index:1000;
 }
+@media (max-width: 483px ) {
+    .hades.tparrows{
+      top: 64% !important;
+    }
+  }
+
+  @media (max-width: 350px ) {
+    .hades.tparrows{
+      display: none !important;
+    }
+  }
 
 .hades.tparrows:before {
 	font-family: "revicons";
@@ -1419,7 +1430,7 @@ border-radius:6px;
 		font-size:13px;
 		font-weight:700;
 		text-transform:uppercase;
-		font-family:"Roboto Slab"
+		font-family:"Roboto Slab";
 		margin-bottom:5px;
 }
 
@@ -2179,7 +2190,7 @@ website:    http://www.themepunch.com
 	position:absolute;
 	width:100%;
 	height:100%;
-	background:#transparent;
+	background:transparent;
 	padding:10px;
 	margin-left:-10px;margin-top:-10px;
 	box-sizing:content-box;
