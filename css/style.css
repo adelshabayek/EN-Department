@@ -18754,3 +18754,11 @@ a:hover {
    z-index: 555;
  }
 
+#loaderImage3 {
+background: #fff url(../images/sprites.gif) no-repeat center center !important;
+height: 100vh !important;
+width: 100% !important;
+ position: fixed !important;
+ z-index: 5599 !important;
+
+}

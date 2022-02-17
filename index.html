@@ -91,7 +91,7 @@
 
 <body class="stretched">
 
-	<div id="loaderImage"></div>
+	<div id="loaderImage3"></div>
 
     <!-- Document Wrapper
 	============================================= -->
@@ -1109,8 +1109,14 @@
 	============================================= -->
 	<script src="js/functions.js"></script>
 	<script src="js/plugins.min.js"></script>
-	<script src="js/load.js"></script>
 
+	<script>
+		var loader = document.getElementById("loaderImage3");
+
+		window.addEventListener("load" , function() {
+			loader.style.display = "none";
+		})
+	</script>
 
 	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
 	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
