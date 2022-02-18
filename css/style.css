@@ -18754,6 +18754,12 @@ a:hover {
    z-index: 555;
  }
 
+ @media (max-width: 950px) {
+   .ftr {
+     position: relative !important;
+   }
+ }
+
 #loaderImage3 {
 background: #fff url(../images/sprites.gif) no-repeat center center !important;
 height: 100vh !important;

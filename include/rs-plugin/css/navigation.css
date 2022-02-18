@@ -1001,13 +1001,9 @@ website:    http://www.themepunch.com
 	display:block;
 	z-index:1000;
 }
-@media (max-width: 483px ) {
-    .hades.tparrows{
-      top: 64% !important;
-    }
-  }
 
-  @media (max-width: 350px ) {
+
+  @media (max-width: 550px ) {
     .hades.tparrows{
       display: none !important;
     }
